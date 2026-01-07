@@ -1,16 +1,42 @@
-# React + Vite
+Shopping List (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React shopping list application that allows users to search, select, and toggle items with optimized rendering using React Hooks.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Search items in real-time
 
-## React Compiler
+Select/unselect items with checkboxes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Selected items are visually marked with a strike-through
 
-## Expanding the ESLint configuration
+Optimized filtering using useMemo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Demonstrates state management with useState
+
+🛠️ Built With
+
+React
+
+JavaScript (ES6+)
+
+React Hooks (useState, useMemo)
+
+📦 Component Overview
+
+Filters items based on user input
+
+Toggles selected items efficiently
+
+Logs render behavior for learning and debugging purposes
+
+▶️ Usage
+
+Import and render the ShoppingList component in your React application.
+
+import { ShoppingList } from "./ShoppingList";
+
+🎯 Purpose
+This project demonstrates React fundamentals, hook optimization, and clean UI state handling—ideal for learning and portfolio showcase.
+
+This project demonstrates React fundamentals, hook optimization, and clean UI state handling—ideal for learning and portfolio showcase.
